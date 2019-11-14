@@ -6,6 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
         <link href="reset.css" rel="stylesheet" media="all"/>
         <link href="style.css" rel="stylesheet"/>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap');
+        </style>
         <!-- <link href="arcade_styles.css" rel="stylesheet"/> 
         for the arcade cabinet look, wanted to at least finish
         first design idea before heading on-->
@@ -18,107 +21,100 @@
             <h2>Web Developer / Project Manager</h2>
             <nav>
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Interests</a></li>
-                    <li><a href="#">HTML5</a></li>
-                    <li><a href="#">CSS3</a></li>
-                    <li><a href="#">JS</a></li>
-                    <li><a href="#">Past Work</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li>About</li>
+                    <li>Experience</li>
+                    <li>Interests</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JS</li>
+                    <li>Past Work</li>
+                    <li>Contacts</li>
                 </ul>
             </nav>  
         </header>
         <article>
-            <p id="about">
-                This is going to be a short personal description
-                about me. It will be short. "Lorem ipsum dolor sit 
-                amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation 
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate 
-                velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in 
-                culpa qui officia deserunt mollit anim id est laborum."
-            </p>
-            <p id="exp">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum."
-            </p>
-            <p id="interests">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum."
-            </p>
-            <p id="html">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum."
-            </p>
-            <p id="css">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum."
-            </p>
-            <p id="js">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum."
-            </p>
-            <p id="past">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum."
-            </p>
-            <p id="contact">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua. Ut enim ad minim veniam, quis 
-                nostrud exercitation ullamco laboris nisi ut aliquip 
-                ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu 
-                fugiat nulla pariatur. Excepteur sint occaecat 
-                cupidatat non proident, sunt in culpa qui officia 
-                deserunt mollit anim id est laborum."
-            </p>
+            <div class="summary">
+                <p id="help">Click the nav options to learn more...</p>
+                <a id="about" class="change" href="#about">About</a>
+                <div id="about" class="info">
+                    <section class="pictures">
+                        <img id="about" src="aigis_toaster.png" height="150px" width="200px"/>
+                    </section>
+                    <p>
+                    My name is Hunter Funk and this digital portfolio will walk
+                    you through who I am, what I am capable off, and show off some
+                    of my previous works. Hopefully, by the end, you will be
+                    convinced that I am up to par for the project you need done.
+                    Currently, I am a junior at Millennium High School as well as a 
+                    first-year coding student at West-MEC central campus.
+                    </p>
+                </div> 
+                <a id="interests" class="change" href="#interests">Interests</a>
+                <div id="interests" class="info">
+                    <p>
+                    Ever since I was a kid, video games have been a passion of mine 
+                    since my older brother put a controller in my hand when he had to
+                    leave the room for a second. It has always been a goal to eventually
+                    finish my own game; however, there is more that I can do with code 
+                    than just programming video games. I also try to keep up with new 
+                    movies and anime coming out. Currently, I plan to attend college 
+                    and get a degree, but not quite sure in what or where. 
+                    </p>
+                </div>
+                <a id="exp" class="change" href="#exp">Experience</a>
+                <div id="exp" class="info">
+                    <p>
+                    I've learned how to code HTML5 and CSS3 so far while attending 
+                    West-MEC. Later in the year I will also begin to learn the basics of 
+                    Javascript. Throughout the year, I have worked with other students in 
+                    the program to finish websites using what we know; however, none of them
+                    are being hosted as of now. By the end of the year, we will work with
+                    actual clients to create websites for their projects. During these
+                    projects, I have been both a Web Developer and Project Manager. 
+                    </p>
+                </div>
+                <a id="html" class="change" href="#html">HTML5</a>
+                <div id="html" class="info">
+                    <p>
+                    I have become comfortable with formatting websites using floats grids 
+                    and flexbox. Personally, I am more comfortable with grids; however, 
+                    flexboxes are required for some designs.
+                    </p>
+                </div>
+                <a id="css" class="change" href="#css">CSS3</a>
+                <div id="css" class="info">
+                    <p>
+                    Currently, I am studying CSS3 at West-MEC right now. I know how to
+                    transform images using perspective with shadows and modify pictures
+                    with filters. I can also apply linear and radial gradients to backgrounds
+                    to make things pop or stand out on a page. This site itself is all one 
+                    HTML, using the pseudo-code to change what is displayed depending on 
+                    which option in the nav bar is selected.
+                    </p>
+                </div>
+                <a id="js" class="change" href="#js">JS</a>
+                <div id="js" class="info">
+                    <p>
+                    I have already learned some conceptual Javascript in my Sophomore
+                    year at Millennium High School when I took AP Computer Science. I scored
+                    a 3 on the AP test and finished with an A in the course; however, it was 
+                    a very short program and did not teach Javascript to its full extent.
+                    Later on in my first year at West-Mec, I will be working more on Javascript.
+                    </p>
+                </div>
+                <a id="past" class="change" href="#past">Past Work</a>
+                <div id="past" class="info">
+                    <p>
+                    Many of my past works have been projects given by my teacher. The first
+                    I had the content required on the site and pictures provided; however how
+                    I turned it into the final product was left to me. The project in the middle
+                    was a group project where we had to create an online collection of data
+                    on Pokemon. The last was supposed to be a blog for users to submit stories
+                    where they had experiences with unpleasant people and wanted to share what
+                    happened.
+                    </p>
+                </div>
+            </div>
             <!--
                 <section class="pictures">
                     <img id="about" src="aigis_toaster.png" height="150px" width="200px"/>
@@ -126,9 +122,6 @@
             pictures go here for the arcade styles
             -->
         </article>
-        <section class="pictures">
-            <img id="about" src="aigis_toaster.png" height="150px" width="200px"/>
-        </section>
         <aside>
             <p>
                 This spot will be for achievements, future goals, major
@@ -149,7 +142,7 @@
         </nav> 
         nav goes here for arcade_styles-->
         <footer>
-            <h2>Email, Social Media, and Number</h2>
+            hfunk336@west-mec.org &#9830; @DumbasFunk &#9830; (602)697-9729 &#9830;
         </footer>
     </body>
 </html>
