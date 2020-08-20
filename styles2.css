@@ -1,29 +1,23 @@
 @charset "utf-8";
 /* html styles */
 html{
-    background-image: linear-gradient(rgb(43, 26, 194), rgb(220, 220, 220));
+    background-color: #2E282A;
     color: rgb(255, 255, 255);
 }
-
 /* header styles */
 header h1, h2{
     text-align: center;
-    color: rgb(200, 200, 200);
+    color: white;
     font-family: 'Yeon Sung', cursive;
 }
 header h1{
-    font-size: 90pt;
-    margin-bottom: 100px;
+    font-size: 40pt;
+    padding-top: 3%;
 }
 header h2{
-    font-size: 68pt;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    line-height: 150px;
-}
-header{
-    padding-top: 150px;
-    padding-bottom: 120px;
+    font-size: 25pt;
+    padding-top: 2%;
+    padding-bottom: 1%;
 }
 
 /* body styles */
@@ -32,6 +26,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     box-shadow: rgba( 0, 0, 0, .6) 0px 0px 20px 20px;
+    background-image: linear-gradient(rgb(43, 26, 194), rgb(220, 220, 220));
 }
 body:after{
     clear: both;
@@ -40,114 +35,52 @@ body:after{
 }
 
 /* nav styles */
-nav ul li{
-    background-color: rgb(43, 26, 194);
-    color: rgb(43, 26, 194);
+nav{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 100%;
 }
 nav ul li{
+    background-color: rgb(43, 26, 194);
+    color: rgb(255, 255, 255);
     list-style-type: none;
     float: left;
+    clear: right;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 57.5px;
-    padding-right: 25.7px;
-}
-a{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 12.5%;
     font-size: 16pt;
 }
-a:link, a:visited{
-    color: white;
-    text-decoration: none;
-}
-a:hover{
-    color: rgb(253, 147, 147);
-}
-
-/* nav position styles */
-a.change{
-    position: absolute;
-    background-color: rgb(43, 26, 194);
-    top: 635px;
-}
-a#about{
-    left: 250px;
-}
-a#interests{
-
-    left: 380px;
-}
-a#exp{
-
-    left: 540px;
-}
-a#html{
-
-    left: 735px;
-}
-a#css{
-
-    left: 905px;
-}
-a#js{
-
-    left: 1050px;
-}
-a#past{
-
-    left: 1170px;
-}
-
-section.pictures{
-    position: absolute;
-    top: 800px;
-    right: 400px;
-}
-
 
 /* article styles */
 article{
     float: left;
     width: 50%;
-    margin-left: 30px;
+    margin-left: 1%;
+    margin-top: 1%;
     background-color: rgb(30, 131, 214);
     border-radius: 20px;
     border-style: solid;
     border-width: 1px;
-    /* box-shadow: rgba(255, 255, 255, 0.575) 0px 0px 20px 10px; */
     box-shadow: inset 0px 0px 20px #000000;
 }
-p#help{
+p#help, p#information{
     margin-left: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
+    margin-right: 15px;
+    font-size: 13pt;
 }
-
-article div.info>p{
-    margin-top: 15px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 15px;
+div.summary{
+    height: 315px;
     overflow: auto;
-    width: 500px;
-    height: 300px;
     line-height: 30px;
-    font-size: 14pt;
-}
-
-/* transition styles */
-div.info{
-    display: none;
-}
-a.change:target+div.info{
-    display: block;
 }
 
 /* image styles */
 section{
-    /* position: absolute;
-    top: 200px;
-    left: 900px; */
+    padding-top: 1%;
     clear: right;
     float: left;
 }
@@ -164,7 +97,6 @@ aside{
     border-radius: 20px;
     border-style: solid;
     border-width: 1px;
-    /* box-shadow: rgba(255, 255, 255, 0.575) 0px 0px 20px 10px; */
     box-shadow: inset 0px 0px 20px #000000;
 }
 aside p{
